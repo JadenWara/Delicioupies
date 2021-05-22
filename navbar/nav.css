@@ -1,0 +1,65 @@
+@import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css);
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #446;
+    color: white;
+}
+.dad {
+    font-size: 25px;
+    margin: .5rem;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ul li {
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+    width: 0px;
+    height: 2.5px;
+    margin: 1.5rem;
+    color: white;
+    font-size: 19px;
+}
+ul li a:hover {
+    width: 100%;
+    text-underline-position: under;
+    text-decoration: underline;
+    color: red;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-size: 19px;
+    transition: .8s ease-in-out;
+}
+@media (width: 600px) {
+    ul li a {
+        font-size: 50px;
+    }  
+}
+@media screen and (max-width:678px) {
+    i {
+        display: block;
+        margin-right: 10px;
+    }
+  
+    ul {
+        background-color: #446;
+    }
+    ul li a {
+        display: none;
+    }
+}

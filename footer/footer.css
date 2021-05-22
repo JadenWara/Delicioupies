@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.big_container {
+    border-color: #445;
+    border-style: solid;
+    height: 400px;
+    background-color: #445;
+}
+h2 {
+    color: white;
+}
+p {
+   padding-right: 50%;
+}
+.visibility {
+    visibility: hidden;
+}
+.shoutout {
+    border-style: inset;
+    height: 50px;
+    margin-bottom: 30px;
+    border-color: #fff;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top-color: rgba(255, 255, 255, 0.85);
+}
+.shoutout p {
+    padding: 0;
+}
+a {
+    color:#00f;
+}

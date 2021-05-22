@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  font-family: "PT Sans",sans-serif;
+}
+.begining {
+  background-color: #447;
+  padding-bottom: 5px;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #447;
+  color: white;
+}
+.dad {
+  font-size: 25px;
+  margin: .5rem;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  width: 0px;
+  height: 2.5px;
+  margin: 1.5rem;
+  color: white;
+  font-size: 19px;
+}
+ul li a:hover {
+  width: 100%;
+  text-underline-position: under;
+  text-decoration: underline 2px;
+  text-decoration-color: red;
+  transition-timing-function: ease-out;
+  transition-delay: .1s;
+  transition-duration: .25s;
+}
+  .text-container {
+    border-style: solid;
+    border-top: none;
+    width: 90%;
+    max-width: 900px;
+    height: 255px;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+  }
+  main .text-container:hover {
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+    border-style: solid;
+    border-top: none;
+    width: 90%;
+    max-width: 900px;
+    height: 225px;
+    border-left-color: #ada;
+    border-right-color: #ada;
+    border-bottom-color: #ada;
+    transition-delay: 200ms;
+    transition-duration: 690ms;
+    box-shadow: 5px 10px 4px #222;
+  }
+  .container img {
+    width: 90%;
+  max-width: 900px;
+  height: 555px;
+    border-radius: 0.5%;
+  }
+  p {
+    font-weight: 900;
+    padding: 10;
+    text-shadow: 1px 1.49px rgb(128, 128, 118);
+  }
+  p:hover {
+    font-weight: 900;
+    padding: 10;
+    text-shadow: 1px 2px rgb(128, 128, 148);
+    transition-duration: 300ms;
+    transition-delay: 400ms;
+  }
+  .container {
+    margin-left: 30px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  img {
+    width: 90%;
+    max-width: 900px;
+    height: 555px;
+  }
+  .space {
+    margin-left: 10px;
+  }
+  .container {
+    width: 90%;
+    max-width: 900px;
+  }
+  .h1 {
+    animation-name: ani;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+  }
+  @keyframes ani {
+    0%{
+      color: blue;
+    }
+    25% {
+      color: red;
+    }
+    50%{
+      color: blue;
+    }
+    100%{
+      color: red;
+    }
+  }
+  .div {
+    position: center;
+  }
+  @media screen and (max-width: 500px) {
+  a {
+    font-size: 20px;
+  }
+  .big_container {
+    border-color: #445;
+    border-style: solid;
+    height: 400px;
+    background-color: #445;
+    width: 100%;
+  }
+  #a1 {
+    animation-name: la;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.14, .75, .2, 1.01);
+    animation-iteration-count: 2;
+  }
+}
+  @keyframes la {
+    0% {
+      color: red;
+      transform: translate(50px, 5px);
+    }
+    25% {
+      color: blue;
+      transform: translate(50px, 10px);
+    }
+    50% {
+      color: red;
+      transform: translate(50px, 2.5px);
+    }
+    75% {
+      color: blue;
+      transform: translate(500px, 10px);
+    }
+    100% {
+      color: red;
+      animation-play-state: paused;
+      transform: translate(5px, 5px);
+    }
+}
+.margin {
+  margin-left: 10px;
+  margin-top: 30px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#img1 {
+  color: #ffffff;
+  height: 395px;
+  width: 75%;
+  max-width: 800px;
+}
+.text {
+  color: white;
+  margin-top: -310px;
+  padding-left: 35px;
+}
+footer {
+  margin-top: 30px
+} 
+.color {
+background-color: #445;
+width: 100%;
+height: 400px;
+}
+.last {
+margin-bottom: 50px;
+}
+.container1 {
+  font-size: 20px;
+}
+.main {
+  width: 95%;
+  max-width: 900px;
+}
+.big_container {
+  border-color: #445;
+  border-style: solid;
+  height: 365px;
+  background-color: #445;
+}
+footer .h22 {
+  color: white;
+}
+footer .h22:hover {
+  color: white;
+}
+footer .pp {
+ padding-right: 50%;
+}
+.shoutout {
+  border-style: inset;
+  height: 50px;
+  margin-bottom: 30px;
+  border-color: #fff;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top-color: rgba(255, 255, 255, 0.85);
+  background-color: #445;
+}
+.shoutout:hover {
+  border-style: inset;
+  height: 50px;
+  margin-bottom: 30px;
+  border-color: #fff;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top-color: rgba(255, 255, 255, 0.85);
+  background-color: #445;
+}
+.shoutout .pp {
+  padding: 0;
+  margin-left: 10px;
+}
+.pp:hover {
+  padding: 0;
+}
+footer .at {
+  color:#00f;
+  text-shadow: none;
+  font-weight: 100;
+}
+.copyright {
+  margin-right: 20px;
+}
