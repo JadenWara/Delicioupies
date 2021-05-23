@@ -75,20 +75,16 @@ ul li a:hover {
   .container img {
     width: 90%;
   max-width: 900px;
-  height: 555px;
+  height: 405px;
     border-radius: 0.5%;
   }
-  p {
+  main p {
     font-weight: 900;
     padding: 10;
-    text-shadow: 1px 1.49px rgb(128, 128, 118);
   }
-  p:hover {
+  main p:hover {
     font-weight: 900;
-    padding: 10;
-    text-shadow: 1px 2px rgb(128, 128, 148);
-    transition-duration: 300ms;
-    transition-delay: 400ms;
+    padding: 10;;
   }
   .container {
     margin-left: 30px;
@@ -102,7 +98,7 @@ ul li a:hover {
   img {
     width: 90%;
     max-width: 900px;
-    height: 555px;
+    height: 5px;
   }
   .space {
     margin-left: 10px;
@@ -140,10 +136,27 @@ ul li a:hover {
   .big_container {
     border-color: #445;
     border-style: solid;
-    height: 400px;
+    height: 170px;
     background-color: #445;
-    width: 100%;
-  }
+    margin-top: 15%;
+}
+h2 {
+    color: white;
+}
+.visibility {
+    visibility: hidden;
+}
+.shoutout {
+  border-style: inset;
+    height: 50px;
+    margin-bottom: 30px;
+    border-color: #fff;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top-color: rgba(255, 255, 255, 0.85);
+    margin-left: -1px;
+}
   #a1 {
     animation-name: la;
     animation-duration: 3s;
@@ -215,7 +228,7 @@ margin-bottom: 50px;
 .big_container {
   border-color: #445;
   border-style: solid;
-  height: 365px;
+  height: 170px;
   background-color: #445;
 }
 footer .h22 {
@@ -237,21 +250,12 @@ footer .pp {
   border-right: none;
   border-top-color: rgba(255, 255, 255, 0.85);
   background-color: #445;
+  margin-left: -1px;
 }
-.shoutout:hover {
-  border-style: inset;
-  height: 50px;
-  margin-bottom: 30px;
-  border-color: #fff;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
-  border-top-color: rgba(255, 255, 255, 0.85);
-  background-color: #445;
-}
-.shoutout .pp {
+.shoutout .copyright {
   padding: 0;
   margin-left: 10px;
+  color: rgba(128, 128, 128, 0.734);
 }
 .pp:hover {
   padding: 0;
@@ -263,4 +267,7 @@ footer .at {
 }
 .copyright {
   margin-right: 20px;
+}
+.title {
+  margin-left: 10px;
 }

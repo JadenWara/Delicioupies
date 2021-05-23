@@ -63,7 +63,6 @@ ul li a:hover {
 }
 #p {
     padding-bottom: 20px;
-    margin-bottom: -30px;
     margin-left: 5px;
 }
 @media only screen and (max-width: 480px) {
@@ -85,10 +84,9 @@ div {
     height: 310px;
 }
 .img1 {
-    width: 80%;
     height: 700px;
+    width: 90%;
     max-width: 900px;
-    filter: invert(11%) sepia(70%) saturate(7104%) hue-rotate(359deg) brightness(84%) contrast(100%);
 }
 html {
     background-color: #447;
@@ -96,9 +94,9 @@ html {
 .big_container {
     border-color: #445;
     border-style: solid;
-    height: 250px;
+    height: 170px;
     background-color: #445;
-    margin-top: 15%;
+    margin-top: 250px;
 }
 h2 {
     color: white;
@@ -109,7 +107,7 @@ h2 {
 .shoutout {
     border-style: inset;
     height: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 3px;
     border-color: #fff;
     border-bottom: none;
     border-left: none;

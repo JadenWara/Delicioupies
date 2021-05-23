@@ -164,4 +164,38 @@ img {
 }
 #g2 {
   margin-left: 18px;
+  color: #000;
+}
+.big_container {
+  border-color: #445;
+  border-style: solid;
+  height: 170px;
+  background-color: #445;
+  margin-top: 20px;
+}
+h2 {
+  color: white;
+}
+.visibility {
+  visibility: hidden;
+}
+.shoutout {
+  border-style: inset;
+  height: 50px;
+  margin-bottom: 30px;
+  border-color: #fff;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top-color: rgba(255, 255, 255, 0.85);
+  margin-left: -1px;
+}
+.shoutout p {
+  color: gray;
+}
+footer {
+  height: 170px;
+}
+.h222 {
+  color: #000;
 }
